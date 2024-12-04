@@ -12,12 +12,16 @@ I am using the Artix-7 FPGA board to display a French flag on a VGA monitor.
 Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
 
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/main/docs/assets/images/VGAPrjSum.png">
+
 ### **Template Code**
 In the ColourStripes Verilog file, the French flag is constructed with red_next, green_next, and blue_next. Which color is displayed depends on the column pixels.
+
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
+
 ### **Demonstration**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
 
@@ -29,8 +33,8 @@ Briefly show how you changed the template code to display a different image. Dem
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
-### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+### **Schematic**
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Schematic.png">
 
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
