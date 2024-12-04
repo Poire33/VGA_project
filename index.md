@@ -26,9 +26,9 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
 
 ## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
+This project is not very complicated. It does not involve any delays that I added; it's just a static image.
 ### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+I modified the code related to the red, green, and blue values inside the if statements in the always@* begin to make a blue, white, and red stripe on the left, center, and right columns of the display respectively.
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
