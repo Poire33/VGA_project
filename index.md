@@ -13,8 +13,8 @@ This project is not very complicated. It does not involve any delays; it's just 
 
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/main/docs/assets/images/VGAPrjSum.png">
 
-### **Template Code**
-In the ColourStripes Verilog file, the French flag is constructed with `red_next`, `green_next`, and `blue_next`. Which color is displayed depends on the column pixels.
+### **Code**
+In the ColourStripes Verilog file, the French flag is constructed with `red_next`, `green_next`, and `blue_next`. Which color is displayed depends on the column pixels. Fom column 0 to 214, red and green is switched off and blue is fully on. From column 215 to column 429, all of red, green, and blue are all fully on to display white. Finally, from column 430 to 640, only the red is activated.
 
 ### **Simulation**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Simulation%202.png">
