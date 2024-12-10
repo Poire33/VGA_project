@@ -22,7 +22,7 @@ The simulation process displays the waveforms seen above in software on a graph.
 
 ### **Synthesis**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Synthesis.png">
-Among other things, the synthesis process genereates a boardview of the circuit, seen above, as well as a netlist.
+Among other things, the synthesis process genereates a low-level circuit diagram, seen above, as well as a netlist.
 
 ### **Demonstration and code adaptation**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
