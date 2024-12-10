@@ -18,16 +18,15 @@ In the ColourStripes Verilog file, the French flag is constructed with `red_next
 
 ### **Simulation**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Simulation%202.png">
-Explain the simulation process. Reference any important details. Guideline: 1/2 short paragraphs.
+The simulation process displays the waveforms seen above in software on a graph. It demonstrates how each of the red, green, and blue signals are timed.
 
 ### **Synthesis**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Synthesis.png">
-Describe the synthesis and implementation processes. Guideline: 1/2 short paragraphs.
+Among other things, the synthesis process genereates a boardview of the circuit, seen above, as well as a netlist.
 
-### **Demonstration**
+### **Demonstration and code adaptation**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
 
-### **Code Adaptation**
 I modified the code related to the red, green, and blue values inside the if statements in the `always@*` begin to make a blue, white, and red stripe on the left, center, and right columns of the display respectively.
 ### **Schematic**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Schematic.png">
