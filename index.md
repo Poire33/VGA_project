@@ -14,7 +14,7 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/main/docs/assets/images/VGAPrjSum.png">
 
 ### **Template Code**
-In the ColourStripes Verilog file, the French flag is constructed with red_next, green_next, and blue_next. Which color is displayed depends on the column pixels.
+In the ColourStripes Verilog file, the French flag is constructed with `red_next`, `green_next`, and `blue_next`. Which color is displayed depends on the column pixels.
 
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
@@ -26,9 +26,9 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
 
 ## **My VGA Design Edit**
-This project is not very complicated. It does not involve any delays that I added; it's just a static image.
+This project is not very complicated. It does not involve any delays; it's just a static image.
 ### **Code Adaptation**
-I modified the code related to the red, green, and blue values inside the if statements in the always@* begin to make a blue, white, and red stripe on the left, center, and right columns of the display respectively.
+I modified the code related to the red, green, and blue values inside the if statements in the `always@*` begin to make a blue, white, and red stripe on the left, center, and right columns of the display respectively.
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
