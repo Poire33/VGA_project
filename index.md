@@ -9,7 +9,7 @@ I am using the Artix-7 FPGA board to display a French flag on a VGA monitor.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+This project is not very complicated. It does not involve any delays; it's just a static image.
 
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/main/docs/assets/images/VGAPrjSum.png">
 
@@ -27,14 +27,8 @@ Describe the synthesis and implementation processes. Guideline: 1/2 short paragr
 ### **Demonstration**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
 
-## **My VGA Design Edit**
-This project is not very complicated. It does not involve any delays; it's just a static image.
 ### **Code Adaptation**
 I modified the code related to the red, green, and blue values inside the if statements in the `always@*` begin to make a blue, white, and red stripe on the left, center, and right columns of the display respectively.
-### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
-### **Synthesis**
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Schematic**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Schematic.png">
 
