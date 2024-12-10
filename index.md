@@ -17,11 +17,12 @@ Summarise the project set-up and design flow. Include a screenshot of your own s
 In the ColourStripes Verilog file, the French flag is constructed with `red_next`, `green_next`, and `blue_next`. Which color is displayed depends on the column pixels.
 
 ### **Simulation**
-Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Simulation%202.png">
+Explain the simulation process. Reference any important details. Guideline: 1/2 short paragraphs.
 
 ### **Synthesis**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Synthesis.png">
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
+Describe the synthesis and implementation processes. Guideline: 1/2 short paragraphs.
 
 ### **Demonstration**
 <img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
