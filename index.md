@@ -5,47 +5,28 @@ tags: fpga vga verilog
 categories: demo
 ---
 
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences.
+I am using the Artix-7 FPGA board to display a French flag on a VGA monitor.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+This project is not very complicated. It does not involve any delays; it's just a static image.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
-### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/main/docs/assets/images/VGAPrjSum.png">
+
+### **Code**
+In the ColourStripes Verilog file, the French flag is constructed with `red_next`, `green_next`, and `blue_next`. Which color is displayed depends on the column pixels. Fom column 0 to 214, red and green is switched off and blue is fully on. From column 215 to column 429, all of red, green, and blue are all fully on to display white. Finally, from column 430 to 640, only the red is activated.
+
 ### **Simulation**
-Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs.
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Simulation%202.png">
+The simulation process displays the waveforms seen above in software on a graph. It demonstrates how each of the red, green, and blue signals are timed.
+
 ### **Synthesis**
-Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
-### **Demonstration**
-Perhaps add a picture of your demo. Guideline: 1/2 sentences.
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Synthesis.png">
+Among other things, the synthesis process genereates a low-level circuit diagram, seen above, as well as a netlist.
 
-## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
-### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
-### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
-### **Synthesis**
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
-### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+### **Demonstration and code adaptation**
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/demo.jpg">
 
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
-
-Font can be emphasised as *Italic* or **Bold**.
-
-Code can be highlighted by using `backticks`.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
+I modified the code related to the red, green, and blue values inside the if statements in the `always@*` begin to make a blue, white, and red stripe on the left, center, and right columns of the display respectively.
+### **Schematic**
+<img src="https://raw.githubusercontent.com/Poire33/VGA_project/refs/heads/edits/docs/assets/images/Schematic.png">
